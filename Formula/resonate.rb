@@ -1,7 +1,6 @@
 class Resonate < Formula
   desc "Load generator for HTTP, WebSocket, gRPC and Server-Sent Events"
   homepage "https://jecklgamis.github.io/resonate/"
-  version "1.0.0-beta.2"
   license "Apache-2.0"
 
   on_macos do

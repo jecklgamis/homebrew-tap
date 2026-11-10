@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: gen-formula.sh <tag> <SHA256SUMS.txt>  > Formula/resonate.rb
 set -euo pipefail
-tag="$1"; sums="$2"; ver="${tag#v}"
+tag="$1"; sums="$2"
 base="https://github.com/jecklgamis/resonate/releases/download/${tag}"
 sha() { awk -v f="resonate_${tag}_$1.tar.gz" '$2==f{print $1}' "$sums"; }
 for t in darwin_arm64 darwin_amd64 linux_arm64 linux_amd64; do
@@ -11,7 +11,6 @@ cat <<RB
 class Resonate < Formula
   desc "Load generator for HTTP, WebSocket, gRPC and Server-Sent Events"
   homepage "https://jecklgamis.github.io/resonate/"
-  version "${ver}"
   license "Apache-2.0"
 
   on_macos do
