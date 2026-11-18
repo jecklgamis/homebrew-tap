@@ -1,6 +1,6 @@
 # homebrew-tap
 
-[Homebrew](https://brew.sh) tap for Jeck's tools.
+[Homebrew](https://brew.sh) tap for JG's tools.
 
 ## Formulae
 
@@ -8,44 +8,6 @@
 |---------|------------|---------|
 | [resonate](https://github.com/jecklgamis/resonate) | Load generator for HTTP, WebSocket, gRPC and Server-Sent Events. Prebuilt binaries for macOS and Linux. | `brew install jecklgamis/tap/resonate` |
 | [microtunnel](https://github.com/jecklgamis/microtunnel) | Minimal hub-and-spoke layer 3 overlay VPN over TUN and UDP. Builds from source. | `brew install jecklgamis/tap/microtunnel` |
-
-## Usage
-
-```sh
-brew tap jecklgamis/tap                 # optional: lets you drop the "jecklgamis/tap/" prefix
-brew install resonate
-brew install microtunnel
-brew upgrade resonate microtunnel       # update to the latest release
-brew uninstall microtunnel
-```
-
-Build the latest `main` of microtunnel instead of a release:
-
-```sh
-brew install --HEAD jecklgamis/tap/microtunnel
-```
-
-### resonate
-
-```sh
-resonate hit https://example.com --duration 2s
-```
-
-See the [resonate docs](https://jecklgamis.github.io/resonate/).
-
-### microtunnel
-
-microtunnel creates a tunnel device, which needs root. Set up each machine with `microtunnel init`,
-then start it as a launchd job:
-
-```sh
-sudo microtunnel init peer --relay relay.example.com:5040 --relay-key <relay public key>
-sudo brew services start microtunnel
-```
-
-Config and keys live in `/etc/microtunnel`, logs in `$(brew --prefix)/var/log/microtunnel.log`, and
-sample configs in `$(brew --prefix)/share/microtunnel/examples`. microtunnel is alpha software: see its
-[README](https://github.com/jecklgamis/microtunnel) and [User Guide](https://jecklgamis.github.io/microtunnel/).
 
 ## Maintaining the formulae
 
