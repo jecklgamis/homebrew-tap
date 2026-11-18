@@ -12,8 +12,8 @@
 class Microtunnel < Formula
   desc "Hub-and-spoke layer 3 overlay VPN over TUN and UDP"
   homepage "https://github.com/jecklgamis/microtunnel"
-  url "https://github.com/jecklgamis/microtunnel/archive/refs/tags/v1.0.0-alpha.1.tar.gz"
-  sha256 "cbb5b0e8d21a3d764ed50b78e4599cc65f8d15ed7d71fef337b1df44726d2420"
+  url "https://github.com/jecklgamis/microtunnel/archive/refs/tags/v1.0.0-alpha.2.tar.gz"
+  sha256 "6ef4a9e8fc40ace2570bd05a4c93939a7816e32ca764e330846459ddc9be3f47"
   license "Apache-2.0"
   head "https://github.com/jecklgamis/microtunnel.git", branch: "main"
 
