@@ -5,23 +5,23 @@ class Resonate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.4/resonate_v1.0.0-beta.4_darwin_arm64.tar.gz"
-      sha256 "3cf9f604563f5092dd00655ab85985ca453b75271474e9cb3b75d4637ee66c34"
+      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.5/resonate_v1.0.0-beta.5_darwin_arm64.tar.gz"
+      sha256 "3a4624ef6d6fcc4991d1e5cfad323e2af7af9bd40785d7beec815595b3297ade"
     end
     on_intel do
-      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.4/resonate_v1.0.0-beta.4_darwin_amd64.tar.gz"
-      sha256 "d1ae4a6130161b7f714504ea7a17b209f693bac25dbca9e50487cd968be1b0f2"
+      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.5/resonate_v1.0.0-beta.5_darwin_amd64.tar.gz"
+      sha256 "6e3fe4615ac55c31482d37b34f73b6616eb5301a13dd2a797851e88f95d1fa93"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.4/resonate_v1.0.0-beta.4_linux_arm64.tar.gz"
-      sha256 "7d28a738cad98e560b0214e80237aac9215752e04a8f9689ba1148c4d5ace2b5"
+      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.5/resonate_v1.0.0-beta.5_linux_arm64.tar.gz"
+      sha256 "c894fb4598bd92eb2f1f5cda2a8ab090eacb60816bb468607ecbe0cc5cd05233"
     end
     on_intel do
-      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.4/resonate_v1.0.0-beta.4_linux_amd64.tar.gz"
-      sha256 "aec1141b73d21025355146b7827ca18aee46950ee5c101f0722c50f030a18d2d"
+      url "https://github.com/jecklgamis/resonate/releases/download/v1.0.0-beta.5/resonate_v1.0.0-beta.5_linux_amd64.tar.gz"
+      sha256 "6807118545655d103070d5e825d2b9157bdacd7a701fae846aafb13204e944af"
     end
   end
 
